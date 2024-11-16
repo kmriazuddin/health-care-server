@@ -11,5 +11,12 @@ export default {
     expire_in: process.env.JWT_EXPIRE_IN,
     refresh_token_secret: process.env.REFRESH_TOKEN_SECRET,
     refresh_token_expire_in: process.env.REFRESH_TOKEN_EXPIRE_IN,
+    reset_password_token: process.env.RESET_PASSWORD_TOKEN,
+    reset_password_expire_in: process.env.RESET_PASSWORD_TOKEN_EXPIRE_IN,
+  },
+  reset_password_link: process.env.RESET_PASSWORD_LINK,
+  emailSender: {
+    email_send: process.env.MAILSENDER,
+    app_password: process.env.APP_PASSWORD,
   },
 };
