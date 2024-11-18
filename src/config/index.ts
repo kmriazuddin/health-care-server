@@ -19,7 +19,7 @@ export default {
     email_send: process.env.MAILSENDER,
     app_password: process.env.APP_PASSWORD,
   },
-  emailHost: {
+  cloudinarySecret: {
     cloud_name: process.env.CLOUD_NAME,
     api_key: process.env.API_KEY,
     api_secret: process.env.API_SECRET,
