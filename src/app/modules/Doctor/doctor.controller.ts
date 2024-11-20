@@ -5,7 +5,6 @@ import { doctorService } from "./doctor.service";
 import sendResponse from "../../../shared/sendResponse";
 import httpStatus from "http-status";
 import { doctorFilterableFields } from "./doctor.constants";
-import { Doctor } from "@prisma/client";
 
 const getAllDoctorFromDB = catchAsync(async (req: Request, res: Response) => {
   const filters = pick(req.query, doctorFilterableFields);
